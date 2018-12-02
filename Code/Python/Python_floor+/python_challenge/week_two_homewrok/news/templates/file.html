@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+<head>
+    <title>{{ json_file.title }}</title>
+</head>
+
+{% block header %}
+    <p> Created_time: {{ json_file.created_time }} </p>
+{% endblock %}
+
+{% block content %}
+    <p> {{ json_file.content }} </p>
+{% endblock %}

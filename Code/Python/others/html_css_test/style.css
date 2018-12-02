@@ -1,0 +1,36 @@
+h1 {
+	color: red;
+	font-size: 40px;
+}
+
+li strong{
+	color: red;
+}
+
+#pid a{
+	color: #00755f;
+}
+
+.container {
+	color: blue;
+}
+
+[title] {
+	color: brown;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.box {
+	width: 70px;
+	height: 30px;
+	margin: 60px;
+
+	border-style: solid;
+	border-width: 50px;
+
+	padding: 60px;
+}
