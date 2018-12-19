@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Week two challenge</title>
+</head>
+
+<body>
+    <div>
+        {% block header %}
+            <p>This is header</p>
+        {% endblock %}
+    </div>
+
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+    <div id="footer">
+        {% block footer %}
+            &copy; Copyright 2018 by <a href="https://www.shiyanlou.com/">shiyanlou</a>.
+        {% endblock %}
+    </div>
+</body>

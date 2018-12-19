@@ -1,0 +1,31 @@
+,number,title,user_name
+0,12550,BUG: astype(object) downcasts for datetime-dtype,h-vetinari
+1,12549,"WIP, TST: relax codecov project threshold",tylerjereddy
+2,12548,"DOC, TST: Refguide Wish List",tylerjereddy
+3,12547,ENH: Cast covariance to double in random mvnormal,bashtage
+4,12546,BUG: check for errors after PyArray_DESCR_REPLACE,mattip
+5,12545,BUG: Ensure probabilities are not NaN in choice,bashtage
+6,12544,BUG: fix refcount issue caused by #12524,mattip
+7,12541,"DEP: remove untested, non-numeric code",mattip
+8,12540,ndarray.copy docstring missing Returns section,lxop
+9,12536,Local file existence checking requires URL modules to be loaded in _datasource.py,EelcoPeacs
+10,12535,DEV: use abspath on windows,mattip
+11,12531,"WIP, TST: fix 1 Azure Windows warning",tylerjereddy
+12,12530,BLD: distutils does not gracefully handle separate Windows Drive Paths,tylerjereddy
+13,12525,Broken comparators for uint64-dtype,h-vetinari
+14,12523,"WIP, ENH: add openblas runtime version inspection",tylerjereddy
+15,12521,numpy.delete documentation doesn't specify that obj-to-be-deleted should be specified in terms of array indices.,kusanagee
+16,12519,WIP/ENH: Use a ufunc under the hood for ndarray.clip,eric-wieser
+17,12518,What should be the calling convention for ufunc inner loop signatures?,eric-wieser
+18,12517,Create a gufunc form of sort and argsort,eric-wieser
+19,12516,Create a gufunc form of argmin and argmax,eric-wieser
+20,12515,Behavior of np.erf for complex arguments,normalhuman
+21,12514,ENH: Convert PyArray_Functions to generalized ufuncs,teoliphant
+22,12513,Truncation behavior of scalar integer type constructors is inconsistent,eric-wieser
+23,12507,AVX2 related failures.,charris
+24,12497,Numpy report SegmentFault when using together with nltk and opencv,velconia
+25,12496,Mixing scalar dtype objects with Python objects (casting) is very slow,zerothi
+26,12495,Clean up the `records.fromfile` function.,charris
+27,12492,"DOC, TST: matplotlib backends in doctests",tylerjereddy
+28,12491,TypeError: unsupported format string passed to numpy.ndarray.__format__,hugovk
+29,12489,BUG: skiprows in loadtxt counts comments,iljah

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: factorial2
+Version: 0.1
+Summary: Factorial module.
+Home-page: https://www.shiyanlou.com/courses/596
+Author: Alan
+Author-email: test@gmail.com
+License: MIT
+Description: A test module for our book.
+Platform: Linux
+Platform: MacOS
