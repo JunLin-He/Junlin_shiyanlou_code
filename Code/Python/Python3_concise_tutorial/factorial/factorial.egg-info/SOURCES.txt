@@ -1,9 +1,0 @@
-MANIFEST.in
-README.rst
-setup.py
-factorial.egg-info/PKG-INFO
-factorial.egg-info/SOURCES.txt
-factorial.egg-info/dependency_links.txt
-factorial.egg-info/top_level.txt
-myfact/__init__.py
-myfact/fact.py
