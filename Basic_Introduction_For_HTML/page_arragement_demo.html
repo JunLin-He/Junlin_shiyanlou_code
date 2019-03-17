@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <style>
+        div#container {
+            width: 1000px
+        }
+
+        div#header {
+            background-color: royalblue;
+            height: 100px;
+            text-align: center;
+            font-size: 20px
+        }
+
+        div#sidebar {
+            background-color: darkorange;
+            height: 400px;
+            width: 300px;
+            float: left;
+        }
+
+        div#mainbody {
+            background-color: forestgreen;
+            height: 400px;
+            width: 700px;
+            float: left;
+        }
+
+        div#footer {
+            background-color: powderblue;
+            height: 100px;
+            clear: both;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>shiyanlou book store</h1>
+        </div>
+        <div id="sidebar">
+            <dl>
+                <dt>list of book</dt>
+                <dd>
+                    <ol>
+                        <li>hadoop</li>
+                        <li>linux</li>
+                        <li>c</li>
+                    </ol>
+                </dd>
+            </dl>
+        </div>
+        <div id="mainbody">
+            <h1 style="text-align: center">the summary of the book</h1>
+            <p style="text-align: center">i will lead you to travel in the season of linux</p>
+
+            <!-- Input form -->
+            <form>
+                username: <input type="text" name="username">
+                <br />
+                password: <input type="password" name="password">
+            </form>
+
+            <!-- Single_select form -->
+            <form>
+                <input type="radio" name="sex" value="male" /> Male
+                <br/>
+                <input type="radio" name="sex" value="female" /> Female
+            </form>
+
+            <!-- Multiple_select form -->
+            <form>
+                <input type="checkbox" name="married" /> married
+                <br/>
+                <input type="checkbox" name="have a job" /> have a job
+                <br/>
+                <input type="checkbox" name="chinese" /> chinese
+            </form>
+        </div>
+        <div id="footer">good good study day day up</div>
+    </div>
+</body>
+
+</html>
